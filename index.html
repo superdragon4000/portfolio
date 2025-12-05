@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ilgizar - Portfolio</title>
+    <meta
+      name="description"
+      content="Minimal portfolio with bilingual content: interfaces, backend, SaaS MVP, and personal projects."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="title">
+          <div>
+            <h1
+              class="lang"
+              data-en="Ilgizar Ismakaev"
+              data-ru="Ильгизар Исмакаев"
+            >
+              Ilgizar Ismakaev
+            </h1>
+            <p
+              class="subtitle lang"
+              data-en="Node.js developer."
+              data-ru="Node.js разработчик."
+            >
+              Node.js developer.
+            </p>
+          </div>
+          <nav aria-label="Language">
+            <div class="lang-switch" role="group" aria-label="Language toggle">
+              <button
+                type="button"
+                data-lang="en"
+                class="active"
+                aria-pressed="true"
+              >
+                EN
+              </button>
+              <button type="button" data-lang="ru" aria-pressed="false">
+                RU
+              </button>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section aria-label="Cards">
+          <article class="card">
+            <h3 class="lang" data-en="Contacts" data-ru="Контакты">Contacts</h3>
+            <p class="contacts">
+              <a
+                class="lang"
+                data-en="Download Resume (PDF)"
+                data-ru="Скачать резюме (PDF)"
+                href="resume.pdf"
+                download
+                target="_blank"
+                >Download Resume (PDF)</a
+              >
+              <a href="https://github.com/superdragon4000" target="_blank"
+                >GitHub</a
+              >
+              <a href="https://t.me/superdragon4000" target="_blank"
+                >Telegram</a
+              >
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="lang" data-en="About me" data-ru="Обо мне">About me</h3>
+            <p
+              class="lang"
+              data-en="I design minimal, thoughtful interfaces and build robust backend systems. Currently developing a SaaS platform with DXF parsing, secure storage, and CI/CD pipelines using NestJS."
+              data-ru="Создаю минималистичные, продуманные интерфейсы и надёжные бэкенды. Сейчас разрабатываю SaaS‑платформу с парсингом DXF, безопасным хранилищем и CI/CD пайплайнами на NestJS."
+            >
+              I design minimal, thoughtful interfaces and build robust backend
+              systems. I value clean architecture over complexity. Currently
+              developing a SaaS platform with DXF parsing, secure storage, and
+              CI/CD pipelines using NestJS.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="lang" data-en="Education" data-ru="Образование">
+              Education
+            </h3>
+            <p
+              class="lang"
+              data-en="<span class='bold500'>Udmurt State University</span> - BSc in Computer Science (2016–2021)"
+              data-ru="<span class='bold500'>УдГУ</span> - Бакалавр по направлению 'Информатика и вычислительная техника' (2016–2021)"
+            >
+              <span class="bold500">Udmurt State University</span> - BSc in
+              Computer Science (2016–2021)
+            </p>
+
+            <p
+              class="lang"
+              data-en="<span class='bold500'>HTC-Softline</span> - Web Development Course"
+              data-ru="<span class='bold500'>ЦВТ‑Softline</span> - Курс 'Веб‑разработка'"
+            >
+              <span class="bold500">HTC-Softline</span> - Web Development Course
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="lang" data-en="Work experience" data-ru="Опыт работы">
+              Work Experience
+            </h3>
+            <p
+              class="lang"
+              data-en="<span class='bold500'>Andersen Lab</span> - Developer (Sep 2021 – Jul 2022)"
+              data-ru="<span class='bold500'>Andersen Lab</span> - Разработчик (сентябрь 2021 – июль 2022)"
+            >
+              <span class="bold500">Andersen Lab</span> - Developer (Sep 2021 –
+              Jul 2022)
+            </p>
+            <p
+              class="lang"
+              data-en="Worked on enterprise web applications using TypeScript, React, and Node.js. Participated in backend API development and frontend integration."
+              data-ru="Разрабатывал корпоративные веб‑приложения на TypeScript, React и Node.js. Участвовал в создании API и интеграции фронтенда."
+            >
+              Worked on enterprise web applications using TypeScript, React, and
+              Node.js. Participated in backend API development and frontend
+              integration.
+            </p>
+            <p
+              class="lang"
+              data-en="<span class='bold500'>Aston</span> - Developer (Jul 2022 – Sep 2022)"
+              data-ru="<span class='bold500'>Aston</span> - Разработчик (июль 2022 – сентябрь 2022)"
+            >
+              <span class="bold500">Aston</span> - Developer (Jul 2022 – Sep
+              2022)
+            </p>
+            <p
+              class="lang"
+              data-en="Contributed to internal tooling and automation scripts. Focused on backend logic and deployment workflows."
+              data-ru="Работал над внутренними инструментами и скриптами автоматизации. Занимался логикой бэкенда и пайплайнами деплоя."
+            >
+              Contributed to internal tooling and automation scripts. Focused on
+              backend logic and deployment workflows.
+            </p>
+            <p
+              class="lang"
+              data-en="<span class='bold500'>Other roles</span> - (2022 – 2024)"
+              data-ru="<span class='bold500'>Другие роли</span> - (2022 – 2024)"
+            >
+              <span class="bold500">Other roles</span> - (2022 – 2024)
+            </p>
+            <p
+              class="lang"
+              data-en="During this period I explored other industries while continuing to improve my technical skills and contribute to personal projects."
+              data-ru="В этот период пробовал себя в других сферах, параллельно развивая технические навыки и работая над личными проектами."
+            >
+              During this period I explored other industries while continuing to
+              improve my technical skills and contribute to personal projects.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="lang" data-en="Personal projects" data-ru="Проекты">
+              Personal Projects
+            </h3>
+
+            <div
+              class="lang bold500"
+              data-en="NestJS SaaS MVP"
+              data-ru="NestJS SaaS MVP"
+            >
+              NestJS SaaS MVP
+            </div>
+            <a
+              href="https://github.com/superdragon4000/cuttim-backend"
+              target="_blank"
+              >code</a
+            >
+            <a href="#">demo</a>
+            <p
+              class="lang"
+              data-en="Modular backend with JWT authentication, role guards, DTO validation, Swagger, and MinIO/S3 storage. DXF file pricing logic based on bounding box and material. Integrated payments, Dockerized deploy, and CI/CD."
+              data-ru="Модульный бэкенд с JWT‑аутентификацией, guards, DTO‑валидацией, Swagger и хранением файлов через MinIO/S3. Логика расчёта стоимости DXF по bounding box и материалу. Интеграция платежей, Docker‑деплой и CI/CD."
+            >
+              Modular backend with JWT authentication, role guards, DTO
+              validation, Swagger, and MinIO/S3 storage. DXF file pricing logic
+              based on bounding box and material. Integrated payments,
+              Dockerized deploy, and CI/CD.
+            </p>
+
+            <div
+              class="lang bold500"
+              data-en="Music streaming service"
+              data-ru="Музыкальный стриминг‑сервис"
+            >
+              Music Streaming Service
+            </div>
+            <p
+              class="lang"
+              data-en="Spotify‑like music platform built with Express, MVC pattern, TypeScript, JWT, TypeORM, PostgreSQL, Multer. Includes user auth, file upload, playlist management and RESTful API."
+              data-ru="Музыкальный сервис по типу Spotify на Express с паттерном MVC, TypeScript, JWT, TypeORM, PostgreSQL, Multer. Авторизация, загрузка треков, управление плейлистами и REST‑API."
+            >
+              Spotify‑like music platform built with Express, MVC pattern,
+              TypeScript, JWT, TypeORM, PostgreSQL, Multer. Includes user auth,
+              file upload, playlist management and RESTful API.
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <footer>
+        <p class="lang" data-en="© 2025 Ilgizar." data-ru="© 2025 Ильгизар.">
+          © 2025 Ilgizar.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
